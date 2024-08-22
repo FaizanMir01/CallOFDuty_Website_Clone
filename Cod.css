@@ -176,10 +176,15 @@ body{
 }
 
 .box4{
-    height:270px;
+    width: 100%;
+    min-height:270px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
     position: relative;
     overflow: hidden;
     margin-bottom: 5rem;
@@ -334,8 +339,7 @@ body{
     }
 
     .box4 {
-        flex-wrap: wrap;
-        height: auto;
+       text-align: center;
     }
 
     .item1 {
